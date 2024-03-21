@@ -1,13 +1,5 @@
 
 @import url('./reset.css');
-
-@font-face {
-    font-family: Gilroy;
-    src: url('../font/Gilroy/Gilroy-Medium.woff');
-    src: url('../font/Gilroy/Gilroy-Semibold.woff');
-    src: url('../font/Gilroy/Gilroy-Regular.woff');
-    src: url('../font/Gilroy/Gilroy-Bold.woff');
-}
 @import url('./header.css');
 @import url('./hero.css');
 @import url('./about-us.css');
@@ -19,5 +11,11 @@
 @import url('./footer.css');
 @import url('./modal.css');
 
-
+@font-face {
+    font-family: Gilroy;
+    src: url('../font/Gilroy/Gilroy-Medium.woff');
+    src: url('../font/Gilroy/Gilroy-Semibold.woff');
+    src: url('../font/Gilroy/Gilroy-Regular.woff');
+    src: url('../font/Gilroy/Gilroy-Bold.woff');
+}
 
