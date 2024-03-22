@@ -43,6 +43,12 @@
     border: 1px solid rgba(251, 251, 251, 0.1);
     border-radius: 10px;
     fill: #fbfbfb;
+    opacity: 0.8;
+}
+
+.footer-contact-link:hover,
+.footer-contact-link:focus {
+    opacity: 1;
 }
 
 .footer-tel-number {
@@ -58,6 +64,12 @@
     text-align: center;
     color: #fbfbfb;
     margin-bottom: 40px;
+}
+
+.footer-tel-number:hover,
+.footer-tel-number:focus {
+    background-color: #fbfbfb;
+    color: #0c0c0c;
 }
 
 .footer-slogan {
