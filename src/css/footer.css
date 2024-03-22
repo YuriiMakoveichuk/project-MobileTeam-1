@@ -273,6 +273,32 @@
 
 }
 
-@media only screen and (min-width: 1280px) {}
+@media only screen and (min-width: 1280px) {
+
+    .footer-container {
+        max-width: 1216px;
+    }
+
+    .footer-logo-contacts-list-and-tel-number-wrapper {
+        margin-bottom: 126px;
+    }
+
+    .slogan-desktop {
+        display: block;
+    }
+
+    .slogan-mobile-and-tablet {
+        display: none;
+    }
+
+    .footer-slogan {
+        margin-bottom: 0;
+    }
+
+    .footer-nav-list {
+        column-gap: 40px;
+    }
+
+}
 
 /* #endregion Footer */
