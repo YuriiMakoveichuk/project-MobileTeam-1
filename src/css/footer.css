@@ -1,7 +1,35 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+/* 
+.section {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+@media only screen and (min-width: 768px) {
+    .section {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+}
+
+@media only screen and (min-width: 1280px) {
+    .section {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+} */
+
 /* #region Footer */
 
 .footer-section {
-    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 20px;
 }
 
 .footer-container {
@@ -9,6 +37,10 @@
     max-width: 335px;
     background: #0c0c0c;
     padding: 40px 28px 28px 28px;
+}
+
+.footer-logo-contacts-list-and-tel-number-wrapper {
+    margin-bottom: 40px;
 }
 
 .footer-logo-and-contacts-list-wrapper {
@@ -27,6 +59,10 @@
 .footer-contacts-list {
     display: flex;
     column-gap: 10px;
+}
+
+.slogan-desktop {
+    display: none;
 }
 
 .footer-contact-item {
@@ -59,11 +95,10 @@
     padding: 14px 18px;
     font-weight: 500;
     font-size: 12px;
-    line-height: 1.33333;
+    line-height: 1.33;
     text-transform: uppercase;
     text-align: center;
     color: #fbfbfb;
-    margin-bottom: 40px;
 }
 
 .footer-tel-number:hover,
@@ -88,10 +123,6 @@
     margin-bottom: 24px;
 }
 
-.footer-nav {
-    width: 147px;
-}
-
 .footer-nav-list {
     display: flex;
     flex-wrap: wrap;
@@ -102,7 +133,7 @@
 .footer-nav-item {
     font-weight: 500;
     font-size: 12px;
-    line-height: 1.33333;
+    line-height: 1.33;
     text-align: center;
     color: #fbfbfb;
 }
@@ -112,7 +143,7 @@
     font-weight: 500;
     font-style: normal;
     font-size: 12px;
-    line-height: 1.33333;
+    line-height: 1.33;
     color: #fbfbfb;
 }
 
@@ -121,13 +152,18 @@
     border-top: 1px solid rgba(251, 251, 251, 0.1);
 }
 
-.footer-copyright {
-    margin-bottom: 8px;
-}
-
 .footer-rules-list {
     display: flex;
     column-gap: 20px;
+    padding: 0;
+}
+
+.footer-rules-item {
+    line-height: 1;
+}
+
+.footer-copyright {
+    opacity: 0.9;
 }
 
 .footer-copyright,
@@ -138,5 +174,105 @@
     letter-spacing: -0.02em;
     color: rgba(251, 251, 251, 0.5);
 }
+
+@media only screen and (max-width: 767px) {
+
+    .footer-nav {
+        max-width: 147px;
+    }
+
+    .footer-copyright {
+        margin-bottom: 8px;
+    }
+
+}
+
+@media only screen and (min-width: 768px) {
+
+    .footer-section {
+        padding-left: 32px;
+        padding-right: 32px;
+        margin-bottom: 32px;
+    }
+
+    .footer-container {
+        max-width: 704px;
+        padding: 40px 40px 28px 40px;
+    }
+
+    .footer-logo-contacts-list-and-tel-number-wrapper {
+        margin-bottom: 86px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .footer-tel-number {
+        align-self: flex-start;
+    }
+
+    .footer-logo-and-contacts-list-wrapper {
+        margin-bottom: 0;
+    }
+
+    .footer-logo {
+        font-size: 20px;
+    }
+
+    .footer-contact-item {
+        width: 36px;
+        height: 36px;
+    }
+
+    .footer-tel-number {
+        width: 160px;
+        padding: 14px 12px;
+        font-size: 14px;
+        line-height: 1.29;
+    }
+
+    .footer-slogan {
+        max-width: 524px;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 28px;
+        line-height: 1.42;
+        margin-bottom: 100px;
+    }
+
+    .footer-nav-and-address-wrapper {
+        margin-bottom: 28px;
+    }
+
+    .footer-nav-list {
+        flex-wrap: nowrap;
+        column-gap: 19px;
+    }
+
+    .footer-nav-item {
+        font-size: 14px;
+        line-height: 1.29;
+    }
+
+    .footer-our-contacts {
+        width: 162px;
+        font-size: 14px;
+        line-height: 1.29;
+    }
+
+    .footer-copyright-etc-wrapper {
+        padding-top: 28px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .footer-copyright,
+    .footer-rules-link {
+        font-size: 14px;
+        line-height: 1.29;
+    }
+
+}
+
+@media only screen and (min-width: 1280px) {}
 
 /* #endregion Footer */
