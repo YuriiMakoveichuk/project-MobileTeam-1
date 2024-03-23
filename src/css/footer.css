@@ -134,9 +134,15 @@
     font-size: 12px;
     line-height: 1.33;
     text-align: center;
-    color: #fbfbfb;
-    /* opacity: 0.5; */
+    color: rgba(251, 251, 251, 0.8);
+    transition: color 250ms linear;
 }
+
+.footer-nav-item:hover,
+.footer-nav-link:focus {
+    color: rgba(251, 251, 251, 1);
+}
+
 
 .footer-our-contacts {
     width: 84px;
@@ -173,6 +179,11 @@
     line-height: 1.4;
     letter-spacing: -0.02em;
     color: rgba(251, 251, 251, 0.5);
+}
+
+.footer-rules-link:hover,
+.footer-rules-link:focus {
+    color: rgba(251, 251, 251, 0.8);
 }
 
 @media only screen and (max-width: 767px) {
