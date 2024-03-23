@@ -3,6 +3,10 @@ span {
   content: '\00AE';
 }
 
+.sale-section {
+  display: flex;
+}
+
 .sale-container {
   padding-bottom: 60px;
 }
