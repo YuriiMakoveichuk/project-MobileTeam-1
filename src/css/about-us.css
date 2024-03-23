@@ -3,7 +3,6 @@
     display: flex;
     padding-bottom: 60px;
     margin: 0 auto;
-    /* background-color: #0c0c0c78 */
 }
 
 .about-info {
@@ -84,12 +83,6 @@
         gap: 40px;
     }
     
-    .container {
-        display: flex;
-        gap: 40px;
-        margin-top: 100px;
-        margin-bottom: 100px;
-    }
 
     .about-info {
         width: 500px;
