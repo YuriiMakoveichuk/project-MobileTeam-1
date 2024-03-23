@@ -1,5 +1,3 @@
-
-
 /* 
 .section {
     padding-top: 30px;
@@ -77,6 +75,7 @@
     border-radius: 10px;
     fill: #fbfbfb;
     opacity: 0.8;
+    transition: opacity 250ms linear;
 }
 
 .footer-contact-link:hover,
@@ -96,6 +95,9 @@
     text-transform: uppercase;
     text-align: center;
     color: #fbfbfb;
+    transition:
+        background-color 250ms linear,
+        color 250ms linear;
 }
 
 .footer-tel-number:hover,
