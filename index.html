@@ -14,7 +14,7 @@
     />
     
     <script type="module" crossorigin src="/project-MobileTeam-1/commonHelpers.js"></script>
-    <link rel="stylesheet" href="/project-MobileTeam-1/assets/index-834fd0a7.css">
+    <link rel="stylesheet" href="/project-MobileTeam-1/assets/index-ef509492.css">
   </head>
   <body>
     <header class="header-section">
@@ -312,7 +312,88 @@
 </div>
 </div>
 </section>
-      
+      <section class="contact-us">
+  <div class="container contact-container">
+    <h2 class="contact-us-title">Contact Us</h2>
+    <div class="contact-flex-wrapper">
+      <div class="contact-us-form-wrapper">
+        <p class="contact-us-form-text">
+          Please use the form below to contact us. Enter your name, email,
+          phone, and message and we'll get back to you shortly.
+        </p>
+        <form class="contact-us-form">
+          <div class="contact-us-input-wrapper">
+            <label class="contact-us-label">
+              <input
+                type="text"
+                name="user-name"
+                placeholder="Name"
+                class="contact-us-input"
+                required
+              />
+            </label>
+          </div>
+          <div class="contact-us-input-wrapper">
+            <label class="contact-us-label">
+              <input
+                type="email"
+                name="user-email"
+                placeholder="Email"
+                class="contact-us-input"
+                pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$"
+                required
+              />
+            </label>
+          </div>
+          <div class="contact-us-input-wrapper">
+            <label class="contact-us-label">
+              <input
+                type="tel"
+                name="user-phone"
+                placeholder="+380"
+                pattern="^\+\d{12}"
+                title="Phone number must start with +380"
+                class="contact-us-input"
+                required
+              />
+            </label>
+          </div>
+          <div class="contact-us-input-wrapper">
+            <label class="contact-us-label">
+              <textarea
+                class="contact-us-textarea"
+                name="user-comment"
+                placeholder="Comment"
+              ></textarea>
+            </label>
+          </div>
+          <button class="contact-us-form-btn" type="submit">Send</button>
+        </form>
+      </div>
+
+      <picture class="contact-us-picture">
+        <source
+          srcset="/project-MobileTeam-1/assets/oclock-contact-desktop-79fa2d33.jpg 1x, /project-MobileTeam-1/assets/oclock-contact-desktop@2x-10debfa3.jpg 2x"
+          media="(min-width:1280px)"
+        />
+        <source
+          srcset="/project-MobileTeam-1/assets/oclock-contact-tablet-21c61163.jpg 1x, /project-MobileTeam-1/assets/oclock-contact-tablet@2x-9ebea8a5.jpg 2x"
+          media="(min-width:768px)"
+        />
+        <source
+          srcset="/project-MobileTeam-1/assets/oclock-contact-mobile-27cb0f9d.jpg 1x, /project-MobileTeam-1/assets/oclock-contact-mobile@2x-3fbbab9e.jpg 2x"
+          media="(max-width:767px)"
+        />
+        <img
+          class="contact-us-img"
+          src="/project-MobileTeam-1/assets/oclock-contact-mobile-27cb0f9d.jpg"
+          alt="watch"
+        />
+      </picture>
+    </div>
+  </div>
+</section>
+
     </main>
     <footer class="section footer-section" id="footer">
 
