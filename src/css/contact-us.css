@@ -52,10 +52,12 @@
   box-sizing: border-box;
   background-color: transparent;
 
-  font-weight: 400;
+  font-family: "Gilroy", sans-serif;
+  font-weight: 500;
   font-size: 14px;
-  line-height: 1.28571;
-  color: #0c0c0c;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+  color: rgba(12, 12, 12, 0.7);
   transition: border-color 250ms linear;
 }
 
@@ -83,10 +85,12 @@
   border-radius: 12px;
   background-color: transparent;
 
-  font-weight: 400;
+  font-family: "Gilroy", sans-serif;
+  font-weight: 500;
   font-size: 14px;
   line-height: 1.29;
-  color: #0c0c0c;
+  letter-spacing: -0.02em;
+  color: rgba(12, 12, 12, 0.7);
   transition: border-color 250ms linear;
 }
 
@@ -155,6 +159,7 @@
   }
 
   .contact-us-title {
+    margin-bottom: 40px;
     font-size: 48px;
   }
 
@@ -177,8 +182,8 @@
   .contact-us-input {
     height: 52px;
     padding: 16px;
-    font-size: 16px;
-    line-height: 1.25;
+    font-size: 14px;
+    line-height: 1.29;
   }
 
   .contact-us-input::placeholder {
