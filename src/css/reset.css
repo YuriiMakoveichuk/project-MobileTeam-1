@@ -1,4 +1,10 @@
 /* Reset styles */
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
 h1,
 h2,
 h3,
@@ -7,10 +13,6 @@ h5,
 h6,
 p {
   margin: 0;
-}
-
-p:last-child {
-  margin-bottom: 0;
 }
 
 ul {
@@ -47,6 +49,7 @@ body {
 
 @media only screen and (min-width: 375px) {
       .container {
+          max-width: 375px;
           padding-left: 20px;
           padding-right: 20px;
       }
@@ -54,6 +57,7 @@ body {
 
 @media only screen and (min-width: 768px) {
       .container {
+        max-width: 768px;
         padding-left: 32px;
         padding-right: 32px;
       }
@@ -61,6 +65,7 @@ body {
 
 @media only screen and (min-width: 1280px) {
       .container {
+        max-width: 1280px;
         padding-left: 65px;
         padding-right: 65px;
       }
