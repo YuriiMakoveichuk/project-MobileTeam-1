@@ -7,7 +7,6 @@
     opacity: 0;
     pointer-events: none;
     display: flex;
-    background-color: #0c0c0c;
     color: #fbfbfb;
     display: flex;
     flex-direction: column;
@@ -15,6 +14,15 @@
     box-sizing: border-box;
     padding-top: 240px;
     padding-bottom: 40px;
+    background-image: url(/img/modal-window-nav-menu/bg-modal-window-img.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@media only screen and (min-resolution: 192dpi) and (max-width: 767px) {
+    .modal {
+        background-image: url(/img/modal-window-nav-menu/bg-modal-window-img@2x.jpg);
+    }
 }
 
 .is-open {
@@ -36,7 +44,7 @@
     align-items: center;
     padding: 0;
     width: 34px;
-    height: 34px;  
+    height: 34px;
 }
 
 .modal-nav {
@@ -54,7 +62,7 @@
 }
 
 .modal-nav-item {
-    position: relative; 
+    position: relative;
 }
 
 .nav-link-active::after {
@@ -100,6 +108,7 @@
         width: 330px;
         padding-top: 310px;
         padding-bottom: 50px;
+        background-image: url(/img/modal-window-nav-menu/bg-modal-window-tablet-img.jpg);
     }
 
     .modal-button {
@@ -128,6 +137,12 @@
         height: 20px;
     }
 
+}
+
+@media only screen and (min-resolution: 192dpi) and (min-width: 768px) {
+    .modal {
+        background-image: url(/img/modal-window-nav-menu/bg-modal-window-tablet-img@2x.jpg);
+    }
 }
 
 @media only screen and (min-width: 1280px) {
