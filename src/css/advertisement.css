@@ -5,12 +5,16 @@
   background-repeat: no-repeat;
   background-size: cover;
   padding: 60px 0;
+
   background-image: url(/img//advertisement-img/bg-mob-min.png);
+
 }
 
 @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
   .advertisement-background {
+
     background-image: url(/img/advertisement-img/bg-mob@2x-min.png);
+
   }
 }
 
@@ -60,12 +64,16 @@
 @media only screen and (min-width: 768px) {
   .advertisement-background {
     padding: 83px 0;
+
     background-image: url(/img/advertisement-img/bg-tablet-min.png);
+
   }
 
   @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
     .advertisement-background {
+
       background-image: url(/img/advertisement-img/bg-tablet@2x-min.png);
+
     }
   }
 
@@ -107,12 +115,16 @@
 /* Desktop-Styles */
 @media only screen and (min-width: 1280px) {
   .advertisement-background {
+
     background-image: url(/img/advertisement-img/bg-desk-min.png);
+
   }
 
   @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
     .advertisement-background {
+
       background-image: url(/img/advertisement-img/bg-tablet@2x-min.png);
+
     }
   }
 
