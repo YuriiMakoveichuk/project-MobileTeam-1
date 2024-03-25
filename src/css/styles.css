@@ -10,14 +10,6 @@
 @import url('./footer.css');
 @import url('./modal.css');
 
-/* @font-face {
-    font-family: Gilroy;
-    src: url('../font/Gilroy/Gilroy-Medium.woff');
-    src: url('../font/Gilroy/Gilroy-Semibold.woff');
-    src: url('../font/Gilroy/Gilroy-Regular.woff');
-    src: url('../font/Gilroy/Gilroy-Bold.woff');
-} */
-
 @font-face {
     font-family: 'Gilroy';
     src: url('Gilroy-Regular.eot');
