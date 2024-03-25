@@ -13,9 +13,6 @@
 
 @font-face {
     font-family: Gilroy;
-    src: url('../font/Gilroy/Gilroy-Medium.woff');
-    src: url('../font/Gilroy/Gilroy-Semibold.woff');
-    src: url('../font/Gilroy/Gilroy-Regular.woff');
-    src: url('../font/Gilroy/Gilroy-Bold.woff');
+    src: url('./font/Gilroy');
 }
 
