@@ -1,13 +1,13 @@
 /* ===============Mobile Styles================= */
 .hero-section{
     padding-top: 60px;
-    padding-bottom: 60px;
+    padding-bottom: 30px;
 }
 .hero-container{
     font-family: "Gilroy", sans-serif;
     display: flex;
     flex-direction: column;
-    max-width: 335px;
+    max-width: 375px;
 }
 .hero-section-title{
     font-weight: 600;
@@ -50,14 +50,17 @@
     color: #0c0c0c;
 
 }
+.header-scroll-link:hover, .header-scroll-link:focus{
+    color: #3350e9;
+}
 /* ===============Tablet Styles================= */
 @media only screen and (min-width: 768px) {
     .hero-section{
         padding-top: 80px;
-        padding-bottom: 80px;
+        padding-bottom: 40px;
     }
     .hero-container {
-        max-width: 704px;
+        max-width: 768px;
         }
 
     .hero-content{
@@ -84,6 +87,7 @@
         font-size: 16px;
         line-height: 1.25;
         letter-spacing: -0.02em;
+        margin-bottom: 0px;
         max-width: 480px;
     }
     
@@ -91,6 +95,9 @@
         flex-direction: column;
         margin-bottom: 0px;
     }
+        .team-list {
+            width: 136px;
+        }
     .header-scroll-link {
         font-size: 20px;
         line-height: 1;

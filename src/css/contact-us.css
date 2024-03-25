@@ -144,6 +144,11 @@
     display: block;
     width: 335px;
   }
+
+  .contact-us-img {
+    width: 335px;
+    height: 512px;
+  }
 }
 
 /* ===============Tablet Styles================= */
@@ -208,6 +213,11 @@
     width: 704px;
   }
 
+  .contact-us-img {
+    width: 704px;
+    height: 556px;
+  }
+
 }
 
 /* ===============Desktop Styles================= */
@@ -231,5 +241,10 @@
 
   .contact-us-picture {
     width: 530px;
+  }
+
+  .contact-us-img {
+    width: 530px;
+    height: 556px;
   }
 }

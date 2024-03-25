@@ -1,0 +1,144 @@
+/* Mobile-Styles */
+.advertisement-background {
+  background-color: #0c0c0c;
+  border-radius: 50px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 60px 0;
+
+  background-image: url(/img//advertisement-img/bg-mob-min.png);
+
+}
+
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+  .advertisement-background {
+
+    background-image: url(/img/advertisement-img/bg-mob@2x-min.png);
+
+  }
+}
+
+.advertisement-title {
+  color: #fbfbfb;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 1;
+  letter-spacing: -0.02em;
+  width: 279px;
+  margin-bottom: 28px;
+}
+
+.text-color {
+  color: rgba(251, 251, 251, 0.5);
+}
+
+.advertisement-contact-btn {
+  color: #fbfbfb;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 0.07;
+  background-color: transparent;
+  border-radius: 16px;
+  border: 1px solid rgba(251, 251, 251, 0.15);
+  padding: 15px 43px;
+  min-width: 160px;
+  height: 48px;
+  display: block;
+  margin: 0 auto;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  margin: auto 0;
+}
+
+.advertisement-contact-btn:hover,
+.advertisement-contact-btn:focus {
+  border: 1px solid rgba(251, 251, 251, 0.15);
+  background-color: #fbfbfb;
+  color: #0c0c0c;
+}
+
+/* /Mobile-Styles */
+
+/* Tablet-Styles */
+@media only screen and (min-width: 768px) {
+  .advertisement-background {
+    padding: 83px 0;
+
+    background-image: url(/img/advertisement-img/bg-tablet-min.png);
+
+  }
+
+  @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+    .advertisement-background {
+
+      background-image: url(/img/advertisement-img/bg-tablet@2x-min.png);
+
+    }
+  }
+
+  .advertisement-title {
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 0.9;
+    letter-spacing: -0.02em;
+    width: 576px;
+    margin-bottom: 32px;
+  }
+
+  .advertisement-contact-btn {
+    color: #fbfbfb;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 0.07;
+    background-color: transparent;
+    border-radius: 16px;
+    border: 1px solid rgba(251, 251, 251, 0.15);
+    padding: 15px 44px;
+    min-width: 160px;
+    height: 48px;
+    display: block;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+      color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .advertisement-contact-btn:hover,
+  .advertisement-contact-btn:focus {
+    border: 1px solid rgba(251, 251, 251, 0.15);
+    background-color: #fbfbfb;
+    color: #0c0c0c;
+  }
+}
+/* /Tablet-styles */
+
+/* Desktop-Styles */
+@media only screen and (min-width: 1280px) {
+  .advertisement-background {
+
+    background-image: url(/img/advertisement-img/bg-desk-min.png);
+
+  }
+
+  @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+    .advertisement-background {
+
+      background-image: url(/img/advertisement-img/bg-tablet@2x-min.png);
+
+    }
+  }
+
+  .advertisement-container {
+    display: flex;
+    gap: 140px;
+  }
+
+  .advertisement-title {
+    width: 692px;
+    margin: 0;
+  }
+  .advertisement-contact-btn {
+    margin: 0;
+  }
+}
+/* /Desktop-Styles */
