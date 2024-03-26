@@ -1,93 +1,99 @@
-.catalog-title{
-    font-family: var(--font-family);
-    font-weight: 600;
-    font-size: 48px;
-    line-height: 92%;
-    letter-spacing: -0.02em;
-    color: var(--main);
+.catalog-section {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.catalog-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
     margin-bottom: 40px;
 }
+
+.catalog-title {
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 1;
+    letter-spacing: -0.02em;
+    color: #0c0c0c;
+    margin-bottom: 24px;
+    
+}
+
 .catalog-item{
-    border: 1px solid #e7e9fc;
-    background-color: rgba(12, 12, 12, 0.05);
+    border: 1px solid rgba(12, 12, 12, 0.05);
+    border-radius: 30px;
+    background-color: #f3f3f3;
+    padding: 22px 28px;
 }
-.box-text-catalog{
-    padding: 10px 32px;
-}
-.box-img-catalog{
+
+.box-img-catalog {
     display: flex;
     justify-content: center;
-    margin-left: auto;
-    margin-top: auto;
+    margin-bottom: 10px;
+    padding: 18px 0;
 }
+
 .catalog-title-list{
-    font-family: var(--font-family);
     font-weight: 500;
-    font-size: 20px;
-    line-height: 100%;
+    font-size: 16px;
+    line-height: 1.25;
     letter-spacing: -0.02em;
-    color: var(--main);
+    color: #0c0c0c;
+    margin-bottom: 8px;
 }
+
 .catalog-text-list{
-    font-family: var(--font-family);
     font-weight: 400;
     font-size: 14px;
-    line-height: 129%;
+    line-height: 1.28571;
     letter-spacing: -0.02em;
     color: rgba(12, 12, 12, 0.5);
 }
 
+
+
 @media only screen and (max-width: 767px) {
-    .catalog-item:not(:last-child) {
-        margin-bottom: 20px;
-    }
-    .catalog-item-hide {
+
+    .catalog-title-list-tablet {
         display: none;
     }
-    .catalog-title{
-        margin-bottom: 20px;
-        line-height: 100%;
-        font-size: 32px;
-        margin-left: 20px;
+
+    .catalog-item-hide {
+         display: none;
     }
-    .catalog-section{
-        padding-top: 30px;
-        padding-bottom: 30px;
-    }
+    
     .btn-more-catalog{
-        font-family: "Gilroy", sans-serif;
+        border-radius: 16px;
         font-weight: 500;
         font-size: 14px;
         line-height: 1.28571;
         text-align: center;
         color: #fbfbfb;
         background-color: #3350e9;
-        margin-top: 40px;
+        padding: 15px 44px;
         margin-left: auto;
         margin-right: auto;
         display: block;
+        border: none;
+        transition: background-color 250ms linear ;
     }
-    .catalog-title-list{
-        font-family: var(--font-family);
-        font-weight: 500;
-        font-size: 16px;
-        line-height: 125%;
-        letter-spacing: -0.02em;
-        color: var(--main);
-    }
-    .catalog-text-list{
-        font-family: var(--font-family);
-        font-weight: 400;
-        font-size: 14px;
-        line-height: 129%;
-        letter-spacing: -0.02em;
-        color: rgba(12, 12, 12, 0.5);
-    }
+
+    .btn-more-catalog:hover,
+    .btn-more-catalog:focus {
+        background: #1f3cd4;
+    }    
 }
 
 @media only screen and (min-width: 768px) {
+
+    .catalog-title-list-mobile {
+            display: none;
+        }
+ 
     .catalog-list{
         display: flex;
+        flex-direction: row;
         flex-wrap: wrap;
         column-gap: 16px;
         row-gap: 32px;
@@ -95,6 +101,11 @@
 
     .catalog-item {
         width: calc((100% - 16px) / 2);
+        padding: 22px 32px;
+    }
+
+    .catalog-title-list-modile {
+        display: none;
     }
 
     .btn-more-catalog{
@@ -104,15 +115,35 @@
         padding-top: 40px;
         padding-bottom: 40px;
     }
+
+    .catalog-title {
+        font-size: 48px;
+        line-height: 0.91667;
+        margin-bottom: 40px;
+    }
+
+    .box-img-catalog {
+        padding: 10px 0;
+    }
+
+    .catalog-title-list {
+        font-size: 20px;
+        line-height: 1;
+        margin-bottom: 8px;     
+    }
+
 }
 
 @media only screen and (min-width: 1280px) {
+
     .catalog-list{
-        row-gap: 32px;
+        column-gap: 23px;
     }
+
     .catalog-item{
         width: calc((100% - 2 * 23px) / 3);
     }
+    
     .catalog-section{
         padding-top: 50px;
         padding-bottom: 50px;
