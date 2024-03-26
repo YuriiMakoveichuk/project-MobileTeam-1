@@ -40,6 +40,9 @@
     letter-spacing: -0.02em;
     color: #0c0c0c;
     margin-bottom: 8px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 .catalog-text-list{
@@ -53,10 +56,6 @@
 
 
 @media only screen and (max-width: 767px) {
-
-    .catalog-title-list-tablet {
-        display: none;
-    }
 
     .catalog-item-hide {
          display: none;
@@ -89,10 +88,6 @@
 }
 
 @media only screen and (min-width: 768px) {
-
-    .catalog-title-list-mobile {
-            display: none;
-        }
  
     .catalog-list{
         display: flex;
