@@ -29,7 +29,6 @@
 
 .footer-container {
     border-radius: 30px;
-    max-width: 335px;
     background: #0c0c0c;
     padding: 40px 28px 28px 28px;
 }
@@ -96,9 +95,7 @@
     text-transform: uppercase;
     text-align: center;
     color: #fbfbfb;
-    transition:
-        background-color 250ms linear,
-        color 250ms linear;
+    transition: background-color 250ms linear, color 250ms linear;
 }
 
 .footer-tel-number:hover,
@@ -198,7 +195,6 @@
 }
 
 @media only screen and (max-width: 767px) {
-
     .footer-nav {
         max-width: 147px;
     }
@@ -206,11 +202,9 @@
     .footer-copyright {
         margin-bottom: 8px;
     }
-
 }
 
 @media only screen and (min-width: 768px) {
-
     .footer-section {
         padding-top: 40px;
         padding-left: 32px;
@@ -296,11 +290,9 @@
         font-size: 14px;
         line-height: 1.29;
     }
-
 }
 
 @media only screen and (min-width: 1280px) {
-
     .footer-section {
         padding-top: 50px;
     }
@@ -328,7 +320,6 @@
     .footer-nav-list {
         column-gap: 40px;
     }
-
 }
 
 /* #endregion Footer */
