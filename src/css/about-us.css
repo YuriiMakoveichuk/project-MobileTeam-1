@@ -1,9 +1,7 @@
 
 .about-section {
-    display: flex;
     padding-top: 30px;
     padding-bottom: 30px;
-    margin: 0 auto;
 }
 
 .about-info {
@@ -22,7 +20,6 @@
 }
 
 .about-text {
-    width: 295px;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.25;
