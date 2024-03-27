@@ -75,12 +75,13 @@
     border-radius: 10px;
     fill: #fbfbfb;
     opacity: 0.8;
-    transition: opacity 250ms linear;
+    transition: opacity 250ms linear, fill 250ms linear;
 }
 
 .footer-contact-link:hover,
 .footer-contact-link:focus {
     opacity: 1;
+    fill: #3350e9;
 }
 
 .footer-tel-number {
@@ -123,7 +124,7 @@
 .footer-nav-list {
     display: flex;
     flex-wrap: wrap;
-    column-gap: 16px;
+    column-gap: 20px;
     row-gap: 8px;
 }
 
