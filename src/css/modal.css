@@ -12,11 +12,13 @@
     flex-direction: column;
     justify-content: space-between;
     box-sizing: border-box;
-    padding-top: 240px;
+    padding-top: 20px;
     padding-bottom: 40px;
     background-image: url(/img/modal-window-nav-menu/bg-modal-window-img.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+
+    background-position: center;
 }
 
 @media only screen and (min-resolution: 192dpi) and (max-width: 767px) {
@@ -33,11 +35,11 @@
 }
 
 .modal-button {
-    position: absolute;
+    /* position: relative; */
     background-color: transparent;
     border: none;
-    top: 20px;
-    right: 20px;
+    /* top: 20px; */
+    /* right: 20px; */
     stroke: #fbfbfb;
     display: flex;
     justify-content: center;
@@ -45,6 +47,8 @@
     padding: 0;
     width: 34px;
     height: 34px;
+    margin-left: auto;
+    margin-right: 20px;
 }
 
 .modal-nav {
@@ -106,7 +110,7 @@
 @media only screen and (min-width: 768px) {
     .modal {
         width: 330px;
-        padding-top: 310px;
+        padding-top: 26px;
         padding-bottom: 50px;
         background-image: url(/img/modal-window-nav-menu/bg-modal-window-tablet-img.jpg);
     }
@@ -116,6 +120,7 @@
         height: 40px;
         top: 26px;
         right: 32px;
+        margin-right: 32px;
     }
 
     .modal-button-svg {
