@@ -39,7 +39,7 @@ span {
   border-radius: 16px;
   border: 1px solid rgba(12, 12, 12, 0.05);
   background: #f3f3f3;
-  max-width: calc(100% - 5px * 3) / 4;
+  max-width: 80px;
   padding: 13px 14px;
 }
 
@@ -48,7 +48,6 @@ span {
   border: 1px solid rgba(12, 12, 12, 0.05);
   background: #f3f3f3;
   padding: 50px;
-  max-width: 100%;
 }
 
 /* === Content-blok === */
@@ -57,7 +56,7 @@ span {
   flex-direction: column;
   border-radius: 30px;
   background: #3350e9;
-  max-width: 279px;
+  width: 279px;
   padding: 48px 28px;
 }
 
@@ -172,7 +171,7 @@ span {
   }
 
   .sale-description-wrapper {
-    max-width: 704px;
+    width: 584px;
     padding: 60px;
   }
 
@@ -271,7 +270,6 @@ span {
   border: 1px solid rgba(12, 12, 12, 0.05);
   background: #f3f3f3;
   padding: 50px;
-  width: 335px;
 }
 
 /* === Content-blok === */
@@ -280,7 +278,6 @@ span {
   flex-direction: column;
   border-radius: 30px;
   background: #3350e9;
-  width: 335px;
   padding: 48px 28px;
 }
 
@@ -304,12 +301,11 @@ span {
 }
 
 .price-list {
-  padding-top: 20px;
-  padding-bottom: 28px;
   display: flex;
   flex-direction: row;
   gap: 9px;
   align-items: center;
+  margin-bottom: 30px;
 }
 
 .sale-price-item {
@@ -400,10 +396,6 @@ span {
     line-height: 1.1;
     letter-spacing: -0.64px;
     max-width: 436px;
-  }
-
-  .price-list {
-    padding-bottom: 30px;
   }
 
   .sale-price-item {

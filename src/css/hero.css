@@ -1,4 +1,8 @@
 /* ===============Mobile Styles================= */
+.hero-img {
+    width: 100%;
+    height: auto;
+}
 .hero-section{
     padding-top: 60px;
     padding-bottom: 30px;
@@ -27,7 +31,6 @@
     color: rgba(12, 12, 12, 0.7);
     margin-bottom: 28px;
 }
-
 .team-list{
     display: flex;
 }
@@ -52,6 +55,10 @@
 }
 .header-scroll-link:hover, .header-scroll-link:focus{
     color: #3350e9;
+}
+
+.hero-box-picture{
+
 }
 /* ===============Tablet Styles================= */
 @media only screen and (min-width: 768px) {
