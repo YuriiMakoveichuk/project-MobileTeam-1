@@ -33,6 +33,7 @@ button {
 img {
   display: block;
   height: auto;
+  max-width: 100%;
 }
 
 body {
@@ -47,27 +48,27 @@ body {
 }
 
 @media only screen and (min-width: 375px) {
-      .container {
-          max-width: 375px;
-          padding-left: 20px;
-          padding-right: 20px;
-      }
-  }    
+  .container {
+    max-width: 375px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
 
 @media only screen and (min-width: 768px) {
-      .container {
-        max-width: 768px;
-        padding-left: 32px;
-        padding-right: 32px;
-      }
+  .container {
+    max-width: 768px;
+    padding-left: 32px;
+    padding-right: 32px;
+  }
 }
 
 @media only screen and (min-width: 1280px) {
-      .container {
-        max-width: 1280px;
-        padding-left: 65px;
-        padding-right: 65px;
-      }
+  .container {
+    max-width: 1280px;
+    padding-left: 65px;
+    padding-right: 65px;
+  }
 }
 
 .is-open {

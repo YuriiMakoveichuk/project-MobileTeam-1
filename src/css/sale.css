@@ -39,7 +39,7 @@ span {
   border-radius: 16px;
   border: 1px solid rgba(12, 12, 12, 0.05);
   background: #f3f3f3;
-  max-width: 80px;
+  max-width: calc(100% - 5px * 3) / 4;
   padding: 13px 14px;
 }
 
@@ -48,6 +48,7 @@ span {
   border: 1px solid rgba(12, 12, 12, 0.05);
   background: #f3f3f3;
   padding: 50px;
+  max-width: 100%;
 }
 
 /* === Content-blok === */
@@ -56,7 +57,7 @@ span {
   flex-direction: column;
   border-radius: 30px;
   background: #3350e9;
-  width: 279px;
+  max-width: 279px;
   padding: 48px 28px;
 }
 
@@ -171,7 +172,7 @@ span {
   }
 
   .sale-description-wrapper {
-    width: 584px;
+    max-width: 704qpx;
     padding: 60px;
   }
 
@@ -227,6 +228,7 @@ span {
     max-width: 410px;
   }
 }
+
 /* === Images-blok === */
 .sale-section-title {
   color: #0c0c0c;
