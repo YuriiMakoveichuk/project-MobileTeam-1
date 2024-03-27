@@ -61,7 +61,7 @@
   transition: border-color 250ms linear;
 }
 
-.contact-us-input:focus {
+.contact-us-input:focus:invalid {
   border-color: red;
 }
 
