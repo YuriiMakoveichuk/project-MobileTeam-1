@@ -47,6 +47,11 @@
     margin-top: 40px;
 }
 
+.view-catalog-btn:hover,
+.view-catalog-btn:focus {
+    background-color: #1f3cd4;
+}
+
 @media only screen and (max-width: 767px){
     .about-info {
         margin-bottom: 20px;
