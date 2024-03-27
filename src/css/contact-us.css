@@ -62,6 +62,10 @@
 }
 
 .contact-us-input:focus {
+  border-color: red;
+}
+
+.contact-us-input:valid {
   border-color: #3350e9;
 }
 
